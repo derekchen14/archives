@@ -1,0 +1,22 @@
+body {
+	background-color: #E0E0E0;
+}
+#wrapper {
+	margin: 0 auto;
+	width: 600px;
+	font-family: arial, sans-serif;
+}
+.btn {
+	margin: 20px 0px;
+}
+.errormsg {
+	font-size: 1.5em;
+	color: red;
+	font-weight: bold;
+	font-family: arial, sans-serif;
+	visibility: hidden;
+	margin: 0px;
+}
+#emailpara {
+	visibility: hidden;
+}

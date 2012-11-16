@@ -1,0 +1,26 @@
+body {
+	background-color: #333333;
+  color: #ffffff;
+}
+h1 {
+  text-decoration: underline;
+  font-size: 2em;
+  font-family: "Garamond", "Times New Roman", Times, serif;
+  padding: 14px 0px;
+  margin: 0px 0px 30px 0px;
+}
+#wrapper {
+	margin: 20px auto;
+	width: 600px;
+  height: 900px;
+  text-align: center;
+	font-family: arial, sans-serif;
+  position: relative;
+}
+
+
+
+
+
+
+

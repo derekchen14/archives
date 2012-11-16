@@ -1,0 +1,71 @@
+body {
+  background: #000;
+}
+
+p {
+  margin: 0;
+}
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#bezel {
+  margin: 0 auto;
+  width: 500px;
+  height: 350px;
+  padding: 10px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+  background: #bc9b4c;
+  border: 30px groove #bc9b4c;
+}
+
+#screen {
+  width: 394px;
+  height: 254px;
+  background-image: url('../images/static.png'), -webkit-gradient(radial, center center, 0, center center, 300, from(#094a32), to(#01150f));
+  padding: 50px;
+  border-radius: 50px;
+  border: 3px double #094a32;
+  -webkit-box-shadow: 0px 0px 100px #094a32;
+}
+
+#screen:hover {
+  background-image: url('../images/noise.png'), -webkit-gradient(radial, center center, 0, center center, 300, from(#094a32), to(#01150f));
+}
+
+#bezel > p {
+  font-size: 2em;
+  text-align: center;
+  color: #675728;
+  font-family: 'Geo', arial, sans-serif;
+  text-shadow: 0px -1px 1px rgba(255,255,255,0.5);
+}
+
+#screen p {
+  line-height: 1.4em;
+  font-size: 2.4em;
+  color: green;
+  font-family: 'VT323', arial, sans-serif;
+  text-shadow: 0px 1px 12px green;
+}
+
+#sticky {
+  width: 130px;
+  height: 90px;
+  position: absolute;
+  bottom: 30px;
+  right: 180px;
+  padding: 15px;
+  padding-top: 30px;
+  background: yellow;
+  font-family: 'Homemade Apple', cursive, serif;
+  -webkit-transform: rotate(-10deg);
+  -webkit-box-shadow: 0px 10px 10px rgba(0,0,0,0.6);
+  background-image: -webkit-gradient(radial, center center, 0, center center, 100, from(#feffa8), to(#fff17e));
+  font-size: 0.8em;
+  font-weight: bold;
+}

@@ -1,0 +1,144 @@
+body {
+	color: #181818;
+	background: url('../img/background.png') repeat-x 0 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, 'Times New Roman', Helvetica, Arial, sans-serif;
+}
+h1 {
+	width: 408px;
+	height: 36px;
+	background: url('../img/BI-logo-1.png') no-repeat 0 0;
+	text-indent: -9999px;
+	margin: 30px auto 25px auto;
+}
+h2 {
+	font-size: 35px;
+	line-height: 40px;
+	font-weight: normal;
+	margin-top: 0;
+}
+h3 {
+	letter-spacing: 1px;
+}
+p {
+	font-family: Arial, sans-serif;
+	font-weight: 200;
+	font-size: 0.95em;
+	line-height: 1.5em;
+}
+
+#header ul {
+	-webkit-margin-before: 0;
+	-webkit-padding-start: 0;
+}
+
+ul {
+	color: #FF5F23;
+}
+li {
+	padding: 5px 0px;
+	font-family: Arial, sans-serif;
+}
+
+.nav li {
+	list-style: none;
+	display: inline;
+	padding: 5px 0px;
+	color: white;
+}
+.nav li:after {
+	content: '|';
+	padding: 0px 10px;
+}
+
+.nav li:last-child:after{
+	content: '>>';
+}
+
+#sidebar img:last-child {
+	max-width: 275px;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header{
+	margin: 0 auto;
+}
+#content {
+	float: left;
+	width: 575px;
+	margin: 0 10px;
+}
+#footer {
+	margin-top: 100px;
+	clear: both;
+}
+#sidebar {
+	float: right;
+	width: 300px;
+	margin: 0 10px;
+	border: 1px solid gray;
+}
+
+.nav {
+	margin: 10px auto;
+	position: relative;
+	top: 10px;
+	text-align: center;
+}
+.blueicons {
+	margin: 30px;
+}
+.try-it {
+	color: #FF5F23;
+	margin: 10px 30px 30px 30px;
+}
+.benefits {
+	color: #181818;
+	margin: 10px;
+}
+.btn {
+	background-color: #FF5F23;
+	padding: 10px 0px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	margin: 20px 60px;
+}
+.bottom {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.bot {
+	color: #599FDA;
+}
+.container {
+	margin-top: 10px;
+}
+
+.spacer {
+	height: 25px;
+}
+.screenshot {
+	text-align: center;
+}
+.text {
+	color: #181818;
+}
+.text a:visited {
+	color: #181818;
+}
+.text .email {
+	text-decoration: none;
+	color: red;
+}
+
+.companies {
+	margin: 40px 0 0 0;
+}
+

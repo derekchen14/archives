@@ -1,0 +1,82 @@
+/* typography.css */
+body {color:#fbf3b6;
+	background: url(bg-texture.jpg) repeat scroll 0 0 #420600;
+	font-family: "Nunito", sans-serif;
+	font-weight: 100;
+
+}
+p {
+	margin-top: 1.2em;
+	font-size: 1.1em;
+}
+
+h2 {font-size:2.05em;
+	margin: 1.4em 0 1.1em 0;
+	font-weight: 100;
+	letter-spacing: -1px;
+}
+h3 {font-size:1.8em;
+	margin-bottom:0.6em;
+	color: #B4C34F;
+	font-weight: 100;
+}
+
+
+a {text-decoration: none;
+	color: #fbf3b6;	
+}
+li {display: inline;
+	font-size: 1.1em;
+	list-style-type: none;
+	padding: 10px 20px;
+	float: left;
+}
+
+#nav {
+	margin-top: 7em;
+	float: right;
+}
+#footer {
+	padding: 10px 0;
+	border-top: 8px solid #2A0400;
+}
+#inside-kitchen {
+	margin: -8px 20px 0px 0px; 
+}
+#get-bakin {
+	margin: -8px 0px 30px 0px;
+}
+.copyright {
+	font-size: 1.1em;
+	text-align: center;
+}
+.hero {
+	padding: 2.5em 0 1.9em 0;
+}
+.btn {
+	border-radius: 25px;
+	padding: 10px 25px;
+}
+.aqua-text {color:#60B5A0;}
+.aqua {background-color: #60B5A0; padding: 16px 30px;}
+.maroon-text {color:#af2708;}
+.maroon {background-color: #af2708;
+	position: relative;
+	top: 6px;
+}
+.img-border {
+	border: 8px solid #fbf3b6;
+	margin: ;
+}
+.top {
+	margin-bottom: 20px;
+}
+.last {
+	font-size: 0.9em;
+}
+label #firstname {
+	margin: 20px;
+}
+
+
+

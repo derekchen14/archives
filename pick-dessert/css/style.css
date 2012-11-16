@@ -1,0 +1,74 @@
+/***********************
+Page Styles
+************************/
+
+body {
+  margin 0;
+  background: #C6ED5E url('../img/background.jpg') repeat-x;
+  font-family: verdana, sans-serif;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+p {
+	line-height: 1.5em;
+	color: #333333;
+}
+
+a:visited {
+	color: #EEEEEE;
+}
+
+a:hover {
+	color: blue;
+}
+
+/***********************
+Body Styles
+************************/
+
+
+h1 {
+	text-align: center;
+	text-decoration: underline;
+	font-family: "Gill Sans MT", "Arial", "Tahoma", sans-serif;
+  padding: 14px 0px;
+  font-size: 2.5em;
+	margin: 0;
+	color: #EEEEEE;
+}
+
+section {
+	height: 400px;
+	padding: 0;
+	margin: 20px 0 60px 0;
+	text-align: center;
+}
+
+#dessert {
+	margin: 10px auto;
+	border: 3px solid #EEEEEE;
+}
+
+form {
+	text-align: center;
+	margin: 40px 0;
+}
+
+.bt {
+	width: 220px;
+	height: 40px;
+	margin: 0 20px;
+	color: #EBEBFF;
+	font-family: "Arial", "Tahoma", sans-serif;
+	font-size: 1.1em;
+	background: #D13E87;
+	background:-moz-linear-gradient(top,#D13E87 0%,#E94A86 100%);
+	background:-webkit-linear-gradient(top,#D13E87 0%,#E94A86 100%);
+	background:linear-gradient(top,#D13E87 0%,#E94A86 100%);
+	border-radius: 7px;
+	border: 1px solid red;
+}

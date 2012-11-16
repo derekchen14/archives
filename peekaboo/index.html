@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>JavaScript Challenges</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body onLoad="init()">
+
+<form action="#" method="get">
+  <fieldset>
+    <legend>Email subscriptions</legend>
+    <p id="subscribepara">
+      <label>
+        <input type="checkbox" name="subscribe" id="subscribe">
+        Yes! I would like to receive the occasional newsletter via email.
+      </label>
+    </p>
+    <p id="emailpara">
+      <label>
+        Email Address:
+        <input type="text" name="email" id="email">
+      </label>
+    </p>
+  </fieldset>
+</form>
+<form action="#" method="get">
+  <fieldset>
+  <legend>Billing Information</legend>
+  <p><label>
+      Postal Address:<br>
+    <textarea name="postaladdress" id="postaladdress"></textarea>
+    </label></p>
+  <p>
+    Home Address:<br>
+    <label>
+       <input type="checkbox" name="homepostalcheck" id="homepostalcheck">
+       Same as above
+    </label><br>
+    <textarea name="homeaddress" id="homeaddress"></textarea>
+  </p>
+  </fieldset>
+</form>
+<form action="#" method="get" onsubmit="return berryForm()">
+  <fieldset>
+    <legend>Radio buttons and Check Boxes</legend>
+    <p>
+      What's your favorite berry?: 
+      <label>
+        <input type="radio" value="strawberry" name="favfruit" id="optstraw">
+        Strawberries
+      </label>
+      <label>
+        <input type="radio" value="blueberry" name="favfruit" id="optblue">
+        Blueberries
+      </label>
+    </p>
+  </fieldset>
+  <input type="submit" value="Check it out!" class="btn">
+</form>
+<form action="#" method="get" onsubmit="return personalForm()">
+  <fieldset>
+    <legend>Personal details</legend>
+    <p>
+      <label> Full name: <input type="text" name="fullname" id="fullname">
+      </label>
+    </p>
+    <p class="errormsg" id="nameerrormsg">Please enter your name above</p>
+    <p>
+      <label>
+        Street Address:
+        <input type="text" name="streetaddr" id="streetaddr">
+      </label>
+    </p>
+    <p class="errormsg" id="addrerrormsg">Please enter your street address</p>
+  </fieldset>
+  <input type="submit" value="Submit it!" class="btn" id="personalDetailsSubmit"> 
+</form>
+
+<form action="#" method="get" onsubmit="return numberForm()">
+  <fieldset>
+    <legend>Checking for numbers</legend>
+    <p> 
+      Enter a postcode: <input type="textbox" name="numBox" id="numBox">
+    </p>
+  </fieldset>
+  <input type="submit" value="Click Here" class="btn" id="checkForNumber">
+</form>
+
+</body>
+<footer>
+	    <script type="text/javascript" src="js/peek.js"></script>
+</footer>
+</html>
